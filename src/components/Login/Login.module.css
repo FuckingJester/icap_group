@@ -50,3 +50,8 @@
 .login__form div span{
     color: rgb(198, 33, 33);
 }
+@media(max-width:600px){
+    .login__container{
+        width: 90%;
+    }
+}

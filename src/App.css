@@ -1,0 +1,59 @@
+body,html{
+  font-family: 'Nunito';
+  font-size: 16px;
+  height: 100%;
+	line-height: 1;
+}
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+}
+
+button,
+input {
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+
+button {
+	cursor: pointer;
+	background-color: inherit;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.info__text{
+  font-size: 30px;
+  margin: 50px auto;
+  text-align: center;
+}
